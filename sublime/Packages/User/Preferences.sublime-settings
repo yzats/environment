@@ -1,0 +1,21 @@
+
+// This is the User settings file, located in Packages/User/ directory
+// Settings in here override those in "Packages/Default/Preferences.sublime-settings",
+// and are overridden in turn by file type specific settings.
+{
+	// The number of spaces a tab is considered equal to
+    "tab_size": 3,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // show all characters
+    //"draw_white_space": "all",
+
+    // By default, shift+tab will only unindent if the selection spans
+    // multiple lines. When pressing shift+tab at other times, it'll insert a
+    // tab character - this allows tabs to be inserted when tab_completion is
+    // enabled. Set this to true to make shift+tab always unindent, instead of
+    // inserting tabs.
+    "shift_tab_unindent": false,
+}
