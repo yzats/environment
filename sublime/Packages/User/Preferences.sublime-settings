@@ -3,7 +3,7 @@
 // Settings in here override those in "Packages/Default/Preferences.sublime-settings",
 // and are overridden in turn by file type specific settings.
 {
-	// The number of spaces a tab is considered equal to
+    // The number of spaces a tab is considered equal to
     "tab_size": 3,
 
     // Set to true to insert spaces when tab is pressed
