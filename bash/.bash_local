@@ -1,0 +1,15 @@
+# Custom .bashrc additions to not mess with system-default .bashrc
+
+# This file should be sourced from .bashrc, by adding the following to .bashrc
+# if [ -f ~/.bash_local ]; then
+#    . ~/.bash_local
+# fi
+
+
+
+
+# Append commands to the history file, rather than overwrite it
+shopt -s histappend
+
+# Save each command into history right after it has been executed
+PROMPT_COMMAND='history -a'
